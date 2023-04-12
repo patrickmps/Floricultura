@@ -1,0 +1,137 @@
+{
+  "plantas": [
+    {
+      "id_fornecedor": 1,
+      "nome": "Camomila",
+      "especie": "Matricaria chamomilla",
+      "descricao": "Planta utilizada para tratamentos anti-inflamatórios, calmantes e digestivos. Também é comum em produtos para cabelos e pele.",
+      "preco": 5.99,
+      "quantidade_em_estoque": 100
+    },
+    {
+      "id_fornecedor": 2,
+      "nome": "Eucalipto",
+      "especie": "Eucalyptus globulus",
+      "descricao": "Planta utilizada em tratamentos respiratórios, por seu efeito expectorante e descongestionante. Também pode ser utilizado em produtos de higiene bucal.",
+      "preco": 3.49,
+      "quantidade_em_estoque": 50
+    },
+    {
+      "id_fornecedor": 8,
+      "nome": "Boldo",
+      "especie": "Peumus boldus",
+      "descricao": "Planta utilizada para tratamentos de problemas digestivos e hepáticos. Também pode ajudar no controle de colesterol.",
+      "preco": 4.99,
+      "quantidade_em_estoque": 75
+    },
+    {
+      "id_fornecedor": 4,
+      "nome": "Alecrim",
+      "especie": "Rosmarinus officinalis",
+      "descricao": "Planta utilizada para estimular a memória, aliviar dores musculares e como repelente de insetos. Também pode ser utilizada em culinária.",
+      "preco": 6.99,
+      "quantidade_em_estoque": 80
+    },
+    {
+      "id_fornecedor": 10,
+      "nome": "Hortelã",
+      "especie": "Mentha spicata",
+      "descricao": "Planta utilizada como antisséptico e analgésico, além de ajudar na digestão. Também pode ser utilizada em culinária e como aromatizante.",
+      "preco": 3.99,
+      "quantidade_em_estoque": 60
+    },
+    {
+      "id_fornecedor": 6,
+      "nome": "Gengibre",
+      "especie": "Zingiber officinale",
+      "descricao": "Planta utilizada para combater náuseas, como anti-inflamatório e antioxidante. Também pode ser utilizado em culinária.",
+      "preco": 7.99,
+      "quantidade_em_estoque": 90
+    },
+    {
+      "id_fornecedor": 7,
+      "nome": "Valeriana",
+      "especie": "Valeriana officinalis",
+      "descricao": "Planta utilizada para tratar ansiedade, insônia e dores de cabeça. Também pode ajudar a diminuir a pressão arterial.",
+      "preco": 9.99,
+      "quantidade_em_estoque": 40
+    },
+    {
+      "id_fornecedor": 8,
+      "nome": "Aloe Vera",
+      "especie": "Aloe vera",
+      "descricao": "Planta utilizada para hidratação e cicatrização da pele, além de ajudar no tratamento de problemas digestivos e imunológicos. Também é comum em produtos para cabelos e em cremes dentais.",
+      "preco": 8.99,
+      "quantidade_em_estoque": 120
+    },
+    {
+      "id_fornecedor": 6,
+      "nome": "Erva-cidreira",
+      "especie": "Melissa officinalis",
+      "descricao": "Planta utilizada para tratar ansiedade, insônia e problemas digestivos. Também pode ajudar a aliviar dores menstruais.",
+      "preco": 4.49,
+      "quantidade_em_estoque": 70
+    },
+    {
+      "id_fornecedor": 1,
+      "nome": "Cúrcuma",
+      "especie": "Curcuma longa",
+      "descricao": "Planta utilizada como anti-inflamatório e antioxidante, além de ajudar na digestão. Também pode ser utilizada em culinária.",
+      "preco": 6.49,
+      "quantidade_em_estoque": 55
+    }
+  ],
+
+  "fornecedores": [
+    {
+      "nome": "Floricultura Vida Verde",
+      "endereco": "Rua das Flores, 123, Jardim das Flores, São Paulo - SP",
+      "telefone": "(11) 9999-9999"
+    },
+    {
+      "nome": "Jardim das Plantas",
+      "endereco": "Avenida das Árvores, 456, Vila dos Jardins, Rio de Janeiro - RJ",
+      "telefone": "(21) 8888-8888"
+    },
+    {
+      "nome": "Plantas da Serra",
+      "endereco": "Rua das Montanhas, 789, Centro, Gramado - RS",
+      "telefone": "(54) 7777-7777"
+    },
+    {
+      "nome": "Verde Vida Paisagismo",
+      "endereco": "Avenida das Palmeiras, 321, Jardim Botânico, Brasília - DF",
+      "telefone": "(61) 3333-3333"
+    },
+    {
+      "nome": "Jardim Tropical",
+      "endereco": "Rua das Praias, 555, Ponta Negra, Natal - RN",
+      "telefone": "(84) 4444-4444"
+    },
+    {
+      "nome": "Flores da Mata",
+      "endereco": "Avenida das Matas, 789, Bosque das Árvores, Belo Horizonte - MG",
+      "telefone": "(31) 2222-2222"
+    },
+    {
+      "nome": "Cantinho das Plantas",
+      "endereco": "Rua das Flores, 456, Centro, Salvador - BA",
+      "telefone": "(71) 5555-5555"
+    },
+    {
+      "nome": "Vida no Jardim",
+      "endereco": "Avenida dos Jardins, 123, Jardim Europa, São Paulo - SP",
+      "telefone": "(11) 8888-8888"
+    },
+    {
+      "nome": "Plantas Exóticas",
+      "endereco": "Rua das Orquídeas, 321, Jardim Botânico, Rio de Janeiro - RJ",
+      "telefone": "(21) 7777-7777"
+    },
+    {
+      "nome": "Cantinho Verde",
+      "endereco": "Avenida das Flores, 555, Vila Verde, Curitiba - PR",
+      "telefone": "(41) 4444-4444"
+    }
+  ]
+}
