@@ -3,7 +3,7 @@ import 'package:shelf/shelf.dart';
 class MiddlewareInterception {
   static Middleware get middlewareContentType {
     return createMiddleware(responseHandler: (Response res) {
-      return res.change(headers: {'content-type': 'application/json'});
+      return res.change(headers: {'content-type': 'application/json', 'Accept': "application/json, application/xml, text/plain, */*"});
     });
   }
 

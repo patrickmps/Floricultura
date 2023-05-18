@@ -1,137 +1,429 @@
 {
-  "plantas": [
+  "addresses": [
     {
-      "id_fornecedor": 1,
-      "nome": "Camomila",
-      "especie": "Matricaria chamomilla",
-      "descricao": "Planta utilizada para tratamentos anti-inflamatórios, calmantes e digestivos. Também é comum em produtos para cabelos e pele.",
-      "preco": 5.99,
-      "quantidade_em_estoque": 100
+      "street": "Rua dos Lírios",
+      "number": 123,
+      "complement": "apto. 501",
+      "neighborhood": "Jardim das Flores",
+      "city": "São Paulo",
+      "state": "São Paulo",
+      "country": "Brasil",
+      "postalCode": "01234-567"
     },
     {
-      "id_fornecedor": 2,
-      "nome": "Eucalipto",
-      "especie": "Eucalyptus globulus",
-      "descricao": "Planta utilizada em tratamentos respiratórios, por seu efeito expectorante e descongestionante. Também pode ser utilizado em produtos de higiene bucal.",
-      "preco": 3.49,
-      "quantidade_em_estoque": 50
+      "street": "Avenida das Rosas",
+      "number": 456,
+      "complement": "casa",
+      "neighborhood": "Vila Flores",
+      "city": "Rio de Janeiro",
+      "state": "Rio de Janeiro",
+      "country": "Brasil",
+      "postalCode": "12345-678"
     },
     {
-      "id_fornecedor": 8,
-      "nome": "Boldo",
-      "especie": "Peumus boldus",
-      "descricao": "Planta utilizada para tratamentos de problemas digestivos e hepáticos. Também pode ajudar no controle de colesterol.",
-      "preco": 4.99,
-      "quantidade_em_estoque": 75
+      "street": "Rua das Orquídeas",
+      "number": 789,
+      "complement": "",
+      "neighborhood": "Jardim das Orquídeas",
+      "city": "Belo Horizonte",
+      "state": "Minas Gerais",
+      "country": "Brasil",
+      "postalCode": "89012-345"
     },
     {
-      "id_fornecedor": 4,
-      "nome": "Alecrim",
-      "especie": "Rosmarinus officinalis",
-      "descricao": "Planta utilizada para estimular a memória, aliviar dores musculares e como repelente de insetos. Também pode ser utilizada em culinária.",
-      "preco": 6.99,
-      "quantidade_em_estoque": 80
+      "street": "Avenida dos Girassóis",
+      "number": 1011,
+      "complement": "sala 202",
+      "neighborhood": "Vila dos Girassóis",
+      "city": "Campinas",
+      "state": "São Paulo",
+      "country": "Brasil",
+      "postalCode": "45678-901"
     },
     {
-      "id_fornecedor": 10,
-      "nome": "Hortelã",
-      "especie": "Mentha spicata",
-      "descricao": "Planta utilizada como antisséptico e analgésico, além de ajudar na digestão. Também pode ser utilizada em culinária e como aromatizante.",
-      "preco": 3.99,
-      "quantidade_em_estoque": 60
+      "street": "Rua das Tulipas",
+      "number": 1213,
+      "complement": "",
+      "neighborhood": "Jardim das Tulipas",
+      "city": "Porto Alegre",
+      "state": "Rio Grande do Sul",
+      "country": "Brasil",
+      "postalCode": "34567-890"
     },
     {
-      "id_fornecedor": 6,
-      "nome": "Gengibre",
-      "especie": "Zingiber officinale",
-      "descricao": "Planta utilizada para combater náuseas, como anti-inflamatório e antioxidante. Também pode ser utilizado em culinária.",
-      "preco": 7.99,
-      "quantidade_em_estoque": 90
+      "street": "Avenida das Margaridas",
+      "number": 1415,
+      "complement": "",
+      "neighborhood": "Vila das Margaridas",
+      "city": "Curitiba",
+      "state": "Paraná",
+      "country": "Brasil",
+      "postalCode": "67890-123"
     },
     {
-      "id_fornecedor": 7,
-      "nome": "Valeriana",
-      "especie": "Valeriana officinalis",
-      "descricao": "Planta utilizada para tratar ansiedade, insônia e dores de cabeça. Também pode ajudar a diminuir a pressão arterial.",
-      "preco": 9.99,
-      "quantidade_em_estoque": 40
+      "street": "Rua das Camélias",
+      "number": 1617,
+      "complement": "",
+      "neighborhood": "Jardim das Camélias",
+      "city": "Salvador",
+      "state": "Bahia",
+      "country": "Brasil",
+      "postalCode": "23456-789"
     },
     {
-      "id_fornecedor": 8,
-      "nome": "Aloe Vera",
-      "especie": "Aloe vera",
-      "descricao": "Planta utilizada para hidratação e cicatrização da pele, além de ajudar no tratamento de problemas digestivos e imunológicos. Também é comum em produtos para cabelos e em cremes dentais.",
-      "preco": 8.99,
-      "quantidade_em_estoque": 120
+      "street": "Avenida das Violetas",
+      "number": 1819,
+      "complement": "",
+      "neighborhood": "Vila das Violetas",
+      "city": "Recife",
+      "state": "Pernambuco",
+      "country": "Brasil",
+      "postalCode": "56789-012"
     },
     {
-      "id_fornecedor": 6,
-      "nome": "Erva-cidreira",
-      "especie": "Melissa officinalis",
-      "descricao": "Planta utilizada para tratar ansiedade, insônia e problemas digestivos. Também pode ajudar a aliviar dores menstruais.",
-      "preco": 4.49,
-      "quantidade_em_estoque": 70
+      "street": "Rua Padre Anchieta",
+      "number": 100,
+      "complement": "Apto 202",
+      "neighborhood": "Centro",
+      "city": "São Paulo",
+      "state": "São Paulo",
+      "country": "Brasil",
+      "postalCode": "01046-000"
     },
     {
-      "id_fornecedor": 1,
-      "nome": "Cúrcuma",
-      "especie": "Curcuma longa",
-      "descricao": "Planta utilizada como anti-inflamatório e antioxidante, além de ajudar na digestão. Também pode ser utilizada em culinária.",
-      "preco": 6.49,
-      "quantidade_em_estoque": 55
+      "street": "Rua Anchieta",
+      "number": 202,
+      "complement": "Casa",
+      "neighborhood": "Jardim Brasil",
+      "city": "Peruíbe",
+      "state": "São Paulo",
+      "country": "Brasil",
+      "postalCode": "11246-000"
     }
   ],
 
-  "fornecedores": [
+  "customers": [
     {
-      "nome": "Floricultura Vida Verde",
-      "endereco": "Rua das Flores, 123, Jardim das Flores, São Paulo - SP",
-      "telefone": "(11) 9999-9999"
+      "name": "João da Silva",
+      "email": "joao.silva@gmail.com",
+      "password": "123456",
+      "addressId": 1,
+      "role": "customer"
     },
     {
-      "nome": "Jardim das Plantas",
-      "endereco": "Avenida das Árvores, 456, Vila dos Jardins, Rio de Janeiro - RJ",
-      "telefone": "(21) 8888-8888"
+      "name": "Maria José",
+      "email": "maria.jose@gmail.com",
+      "password": "abcdef",
+      "addressId": 2,
+      "role": "customer"
     },
     {
-      "nome": "Plantas da Serra",
-      "endereco": "Rua das Montanhas, 789, Centro, Gramado - RS",
-      "telefone": "(54) 7777-7777"
+      "name": "Pedro Souza",
+      "email": "pedro.souza@gmail.com",
+      "password": "qwert",
+      "addressId": 3,
+      "role": "customer"
     },
     {
-      "nome": "Verde Vida Paisagismo",
-      "endereco": "Avenida das Palmeiras, 321, Jardim Botânico, Brasília - DF",
-      "telefone": "(61) 3333-3333"
+      "name": "Ana Luiza",
+      "email": "ana.luiza@gmail.com",
+      "password": "123abc",
+      "addressId": 4,
+      "role": "customer"
     },
     {
-      "nome": "Jardim Tropical",
-      "endereco": "Rua das Praias, 555, Ponta Negra, Natal - RN",
-      "telefone": "(84) 4444-4444"
+      "name": "Luiz Carlos",
+      "email": "luiz.carlos@gmail.com",
+      "password": "abc123",
+      "addressId": 5,
+      "role": "customer"
     },
     {
-      "nome": "Flores da Mata",
-      "endereco": "Avenida das Matas, 789, Bosque das Árvores, Belo Horizonte - MG",
-      "telefone": "(31) 2222-2222"
+      "name": "Fernanda Lima",
+      "email": "fernanda.lima@gmail.com",
+      "password": "lima123",
+      "addressId": 6,
+      "role": "customer"
     },
     {
-      "nome": "Cantinho das Plantas",
-      "endereco": "Rua das Flores, 456, Centro, Salvador - BA",
-      "telefone": "(71) 5555-5555"
+      "name": "Ricardo Santos",
+      "email": "ricardo.santos@gmail.com",
+      "password": "santos123",
+      "addressId": 7,
+      "role": "customer"
     },
     {
-      "nome": "Vida no Jardim",
-      "endereco": "Avenida dos Jardins, 123, Jardim Europa, São Paulo - SP",
-      "telefone": "(11) 8888-8888"
+      "name": "Isabela Oliveira",
+      "email": "isabela.oliveira@gmail.com",
+      "password": "oliveira123",
+      "addressId": 8,
+      "role": "customer"
     },
     {
-      "nome": "Plantas Exóticas",
-      "endereco": "Rua das Orquídeas, 321, Jardim Botânico, Rio de Janeiro - RJ",
-      "telefone": "(21) 7777-7777"
+      "name": "Gabriel Pereira",
+      "email": "gabriel.pereira@gmail.com",
+      "password": "pereira123",
+      "addressId": 9,
+      "role": "customer"
     },
     {
-      "nome": "Cantinho Verde",
-      "endereco": "Avenida das Flores, 555, Vila Verde, Curitiba - PR",
-      "telefone": "(41) 4444-4444"
+      "name": "Leticia Fernandes",
+      "email": "leticia.fernandes@gmail.com",
+      "password": "fernandes123",
+      "addressId": 10,
+      "role": "customer"
+    }
+  ],
+
+  "suppliers": [
+    {
+      "name": "Flores e Cores",
+      "addressId": 1,
+      "email": "flores_cores@example.com",
+      "phone": "(11) 1234-5678"
+    },
+    {
+      "name": "Jardim das Flores",
+      "addressId": 2,
+      "email": "jardim_flores@example.com",
+      "phone": "(22) 2222-2222"
+    },
+    {
+      "name": "Rosas e Flores",
+      "addressId": 3,
+      "email": "rosas_flores@example.com",
+      "phone": "(33) 3333-3333"
+    },
+    {
+      "name": "Floricultura Bela Flor",
+      "addressId": 4,
+      "email": "bela_flor@example.com",
+      "phone": "(44) 4444-4444"
+    },
+    {
+      "name": "Plantas e Flores",
+      "addressId": 5,
+      "email": "plantas_flores@example.com",
+      "phone": "(55) 5555-5555"
+    },
+    {
+      "name": "Orquídeas e Flores",
+      "addressId": 6,
+      "email": "orquideas_flores@example.com",
+      "phone": "(66) 6666-6666"
+    },
+    {
+      "name": "Flores da Primavera",
+      "addressId": 7,
+      "email": "primavera_flores@example.com",
+      "phone": "(77) 7777-7777"
+    },
+    {
+      "name": "Flores Online",
+      "addressId": 8,
+      "email": "flores_online@example.com",
+      "phone": "(88) 8888-8888"
+    },
+    {
+      "name": "Floricultura Flor de Lótus",
+      "addressId": 9,
+      "email": "flor_lotus@example.com",
+      "phone": "(99) 9999-9999"
+    },
+    {
+      "name": "Flores do Campo",
+      "addressId": 10,
+      "email": "flores_campo@example.com",
+      "phone": "(00) 0000-0000"
+    }
+  ],
+
+  "categories": [
+    { "category": "Rosas" },
+    { "category": "Orquídeas" },
+    { "category": "Vasos" },
+    { "category": "Ferramentas de Jardinagem" },
+    { "category": "Flores Artificiais" },
+    { "category": "Bonsais" },
+    { "category": "Plantas para Ambientes Internos" },
+    { "category": "Plantas para Ambientes Externos" },
+    { "category": "Sementes" },
+    { "category": "Acessórios para Jardinagem" }
+  ],
+
+  "products": [
+    {
+      "name": "Rosa Vermelha",
+      "description": "A rosa vermelha é uma flor clássica e romântica, com pétalas vermelhas vibrantes e perfume doce. É frequentemente usada como presente em ocasiões especiais, como Dia dos Namorados, aniversários e casamentos.",
+      "price": 19.99,
+      "amount": 50,
+      "categoryId": 1,
+      "supplierId": 1
+    },
+    {
+      "name": "Orquídea Branca",
+      "description": "A orquídea branca é uma flor elegante e sofisticada, com pétalas brancas delicadas e aroma suave. É frequentemente usada para decoração de ambientes e também como presente em ocasiões especiais, como Dia das Mães, Dia dos Namorados e aniversários.",
+      "price": 49.99,
+      "amount": 20,
+      "categoryId": 2,
+      "supplierId": 2
+    },
+    {
+      "name": "Vaso de Vidro",
+      "description": "O vaso de vidro é um recipiente transparente e resistente, usado para acomodar e exibir flores e plantas. É frequentemente usado em decoração de ambientes e presenteado junto com flores.",
+      "price": 9.99,
+      "amount": 100,
+      "categoryId": 3,
+      "supplierId": 3
+    },
+    {
+      "name": "Tesoura de Jardinagem",
+      "description": "A tesoura de jardinagem é uma ferramenta de corte de alta qualidade, usada para podar e cuidar de plantas e flores. É essencial para manutenção de jardins e plantas em casa.",
+      "price": 29.99,
+      "amount": 10,
+      "categoryId": 4,
+      "supplierId": 4
+    },
+    {
+      "name": "Flores Artificiais",
+      "description": "As flores artificiais são réplicas de flores naturais, feitas com materiais sintéticos duráveis e resistentes. São frequentemente usadas em decoração de ambientes, eventos e casamentos, pois não murcham ou perdem a beleza.",
+      "price": 14.99,
+      "amount": 30,
+      "categoryId": 5,
+      "supplierId": 5
+    },
+    {
+      "name": "Bonsai de Carvalho",
+      "description": "O bonsai de carvalho é uma miniatura de uma árvore de carvalho, cultivado em um vaso pequeno. É um presente elegante e sofisticado, frequentemente usado como decoração de ambientes e para simbolizar longevidade e prosperidade.",
+      "price": 69.99,
+      "amount": 5,
+      "categoryId": 6,
+      "supplierId": 6
+    },
+    {
+      "name": "Samambaia",
+      "description": "A samambaia é uma planta delicada e exuberante, com folhas verdes longas e finas. É frequentemente usada como decoração de ambientes internos, pois é resistente à baixa luminosidade e não necessita de muita água para sobreviver.",
+      "price": 24.99,
+      "amount": 15,
+      "categoryId": 7,
+      "supplierId": 7
+    },
+    {
+      "name": "Cesta de Flores",
+      "description": "A cesta de flores é uma combinação de diversas flores e folhagens em um arranjo harmonioso, colocados em uma cesta decorativa. É frequentemente usada como presente em ocasiões especiais, como Dia das Mães, Dia dos Namorados e aniversários.",
+      "price": 39.99,
+      "amount": 8,
+      "categoryId": 8,
+      "supplierId": 8
+    },
+    {
+      "name": "Lírio Amarelo",
+      "description": "O lírio amarelo é uma flor radiante e alegre, com pétalas amarelas vibrantes e perfume doce. É frequentemente usada como presente em ocasiões especiais, como formaturas, aniversários e casamentos.",
+      "price": 29.99,
+      "amount": 25,
+      "categoryId": 1,
+      "supplierId": 9
+    },
+    {
+      "name": "Cacto",
+      "description": "O cacto é uma planta suculenta e resistente, com espinhos protetores e flores vibrantes. É frequentemente usado como decoração de ambientes internos e externos, pois é fácil de cuidar e resistente à falta de água.",
+      "price": 12.99,
+      "amount": 40,
+      "categoryId": 7,
+      "supplierId": 10
+    }
+  ],
+
+  "orders": [
+    {
+      "productId": 1,
+      "amount": 2,
+      "totalPrice": 45.98,
+      "shippingAddressId": 1,
+      "expectedDate": "2023-05-05",
+      "deliveryDate": null,
+      "status": "processing"
+    },
+    {
+      "productId": 4,
+      "amount": 1,
+      "totalPrice": 29.99,
+      "shippingAddressId": 3,
+      "expectedDate": "2023-04-30",
+      "deliveryDate": null,
+      "status": "pending"
+    },
+    {
+      "productId": 6,
+      "amount": 3,
+      "totalPrice": 71.97,
+      "shippingAddressId": 2,
+      "expectedDate": "2023-05-10",
+      "deliveryDate": null,
+      "status": "processing"
+    },
+    {
+      "productId": 2,
+      "amount": 5,
+      "totalPrice": 124.95,
+      "shippingAddressId": 5,
+      "expectedDate": "2023-05-02",
+      "deliveryDate": null,
+      "status": "shipped"
+    },
+    {
+      "productId": 8,
+      "amount": 1,
+      "totalPrice": 39.99,
+      "shippingAddressId": 4,
+      "expectedDate": "2023-05-07",
+      "deliveryDate": null,
+      "status": "pending"
+    },
+    {
+      "productId": 5,
+      "amount": 2,
+      "totalPrice": 49.98,
+      "shippingAddressId": 7,
+      "expectedDate": "2023-05-12",
+      "deliveryDate": null,
+      "status": "processing"
+    },
+    {
+      "productId": 9,
+      "amount": 4,
+      "totalPrice": 119.96,
+      "shippingAddressId": 6,
+      "expectedDate": "2023-05-15",
+      "deliveryDate": null,
+      "status": "processing"
+    },
+    {
+      "productId": 3,
+      "amount": 1,
+      "totalPrice": 19.99,
+      "shippingAddressId": 9,
+      "expectedDate": "2023-05-01",
+      "deliveryDate": null,
+      "status": "pending"
+    },
+    {
+      "productId": 7,
+      "amount": 2,
+      "totalPrice": 35.98,
+      "shippingAddressId": 8,
+      "expectedDate": "2023-05-20",
+      "deliveryDate": null,
+      "status": "processing"
+    },
+    {
+      "productId": 10,
+      "amount": 1,
+      "totalPrice": 12.99,
+      "shippingAddressId": 10,
+      "expectedDate": "2023-05-25",
+      "deliveryDate": null,
+      "status": "processing"
     }
   ]
 }
