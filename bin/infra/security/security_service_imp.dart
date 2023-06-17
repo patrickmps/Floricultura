@@ -1,7 +1,7 @@
 import 'package:shelf/shelf.dart';
-import 'package:shelf/src/middleware.dart';
+import 'package:web_api/env/env.dart';
 
-import '../../utils/custom_env.dart';
+// import '../../utils/custom_env.dart';
 import 'security_service.dart';
 import 'package:dart_jsonwebtoken/dart_jsonwebtoken.dart';
 
@@ -14,7 +14,7 @@ class SecurityServiceImp implements SecurityService<JWT> {
       'roles': ['admin', 'user'],
     });
 
-    String key = await CustomEnv.get<String>(key: 'JWT_KEY');
+    String key = Env.jwtKey;
     String token = jwt.sign(SecretKey(key));
 
     return token;
@@ -22,7 +22,7 @@ class SecurityServiceImp implements SecurityService<JWT> {
 
   @override
   Future<JWT?> validateJWT(String token) async {
-    String key = await CustomEnv.get<String>(key: 'JWT_KEY');
+    String key = Env.jwtKey;
     try {
       return JWT.verify(token, SecretKey(key));
     } on JWTInvalidError {
