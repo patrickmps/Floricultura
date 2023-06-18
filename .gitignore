@@ -2,6 +2,7 @@
 # Created by `dart pub`
 .dart_tool/
 .env
+env.g.dart
 test/
 pubspec.lock
 

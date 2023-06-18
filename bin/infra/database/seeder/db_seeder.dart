@@ -18,7 +18,8 @@ class DBSeeder {
   final CategoryService _categoryService;
   final ProductService _productService;
   final OrderService _orderService;
-  DBSeeder(this._addressService, this._supplierService, this._categoryService, this._productService, this._orderService);
+  DBSeeder(this._addressService, this._supplierService, this._categoryService,
+      this._productService, this._orderService);
 
   Future<Map> _readJsonFile(String path) async {
     var file = await File(path).readAsString();
@@ -30,68 +31,78 @@ class DBSeeder {
   void _addressSeed() async {
     var map = await _readJsonFile("bin/infra/database/seeder/data_seeder.json");
 
-    await map['addresses'].forEach((e) async {
-      Address address = Address.fromRequest(e);
-      print(address);
-      await _addressService
-          .save(address)
-          .then((response) => response['statusCode'] == 200 ? print('Ok') : print('Erro'));
-    });
+    try {
+      await map['addresses'].forEach((e) async {
+        Address address = Address.fromRequest(e);
+        await _addressService.save(address);
+      });
+      print('Address seed: OK!');
+    } catch (e) {
+      print(e);
+    }
   }
 
   void _suppliersSeed() async {
     var map = await _readJsonFile("bin/infra/database/seeder/data_seeder.json");
 
-    await map['suppliers'].forEach((e) async {
-      Supplier supplier = Supplier.fromRequest(e);
-      print(supplier);
-      await _supplierService
-          .save(supplier)
-         .then((response) => response['statusCode'] == 200 ? print('Ok') : print('Erro'));
-    });
+    try {
+      await map['suppliers'].forEach((e) async {
+        Supplier supplier = Supplier.fromRequest(e);
+        await _supplierService.save(supplier);
+      });
+      print('Suppliers seed: OK!');
+    } catch (e) {
+      print(e);
+    }
   }
 
   void _categoriesSeed() async {
     var map = await _readJsonFile("bin/infra/database/seeder/data_seeder.json");
 
-    await map['categories'].forEach((e) async {
-      Category category = Category.fromRequest(e);
-      print(category);
-      await _categoryService
-          .save(category)
-          .then((response) => response['statusCode'] == 200 ? print('Ok') : print('Erro'));
-    });
+    try {
+      await map['categories'].forEach((e) async {
+        Category category = Category.fromRequest(e);
+        await _categoryService.save(category);
+      });
+      print('Categories seed: OK!');
+    } catch (e) {
+      print(e);
+    }
   }
 
   void _productSeed() async {
     var map = await _readJsonFile("bin/infra/database/seeder/data_seeder.json");
-
-    await map['products'].forEach((e) async {
-      Product product = Product.fromRequest(e);
-      print(product);
-      await _productService
-          .save(product)
-          .then((response) => response['statusCode'] == 200 ? print('Ok') : print('Erro'));
-    });
+    try {
+      await map['products'].forEach((e) async {
+        Product product = Product.fromRequest(e);
+        await _productService.save(product);
+      });
+      print('Products seed: OK!');
+    } catch (e) {
+      print(e);
+    }
   }
 
   void _orderSeed() async {
     var map = await _readJsonFile("bin/infra/database/seeder/data_seeder.json");
-
-    await map['orders'].forEach((e) async {
-      Order order = Order.fromRequest(e);
-      print(order);
-      await _orderService
-          .save(order)
-          .then((response) => response['statusCode'] == 200 ? print('Ok') : print('Erro'));
-    });
+    try {
+      await map['orders'].forEach((e) async {
+        Order order = Order.fromRequest(e);
+        await _orderService.save(order);
+      });
+      print('Orders seed: OK!');
+    } catch (e) {
+      print(e);
+    }
   }
 
   void seeder() async {
-    // _addressSeed();
-    // _suppliersSeed();
-    // _categoriesSeed();
-    // _productSeed();
-    // _orderSeed();
+    Future.wait([
+      Future.delayed(const Duration(milliseconds: 200), () => _addressSeed()),
+      Future.delayed(const Duration(milliseconds: 400), () => _categoriesSeed()),
+      Future.delayed(const Duration(milliseconds: 600), () => _suppliersSeed()),
+      Future.delayed(const Duration(milliseconds: 800), () => _productSeed()),
+      Future.delayed(const Duration(milliseconds: 1000), () => _orderSeed()),
+    ]);
   }
 }

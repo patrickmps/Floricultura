@@ -90,7 +90,6 @@ class Order {
   }
 
   factory Order.fromRequest(Map<String, dynamic> map) {
-    print(map['shippingAddressId']);
     return Order()
       ..id = map['id']
       ..productId = map['productId']
