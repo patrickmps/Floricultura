@@ -2,8 +2,6 @@
 
 # ⚡Floricultura API
 
-<img height="80em" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" />
-
 ## Tecnologias
 
 Aqui estão as tecnologias usadas no projeto:
